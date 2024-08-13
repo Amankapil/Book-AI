@@ -1,4 +1,3 @@
-// src/components/Features.js
 import { Download, FileCopy, Language, SmartToy } from "@mui/icons-material";
 import React from "react";
 

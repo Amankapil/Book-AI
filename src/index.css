@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* src/index.css */
 body {
   background: linear-gradient(135deg, #1e0533, #110a1f);
   color: black;
@@ -15,14 +14,13 @@ body.dark {
 }
 
 .dark a {
-  /* color: #blue; Ensure links are visible in dark mode */
+  /* color: #blue; 
 }
 
 .dark .text-gray-800 {
   color: white !important;
 }
 
-/* Other overrides for dark mode as needed */
 
 .health {
   -webkit-text-fill-color: #0000;

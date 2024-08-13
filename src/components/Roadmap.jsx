@@ -1,4 +1,3 @@
-// src/components/HowItWorks.js
 import { AccountCircle, Draw, People, Store } from "@mui/icons-material";
 import React from "react";
 

@@ -12,7 +12,7 @@ export default function Navbar() {
     }
   }, [darkMode]);
 
-  const hrefggleDarkMode = () => {
+  const ToggleDarkMode = () => {
     setDarkMode(!darkMode);
   };
   let [width, setWidth] = useState(window.innerWidth);
@@ -87,7 +87,7 @@ export default function Navbar() {
                   </ul>
                 </div>
                 <buthrefn
-                  onClick={hrefggleDarkMode}
+                  onClick={ToggleDarkMode}
                   className="font-bold bg-gradient-to-r from-[#726bff] to-[#57b6fe] p-2 rounded  text-white cursor-pointer"
                 >
                   Toggle {darkMode ? "Dark" : "Light"} Mode
@@ -154,7 +154,7 @@ export default function Navbar() {
               </div>
 
               <buthrefn
-                onClick={hrefggleDarkMode}
+                onClick={ToggleDarkMode}
                 className="font-bold bg-gradient-to-r from-[#726bff] to-[#57b6fe] p-2 rounded-full  text-white cursor-pointer"
               >
                 Toggle {darkMode ? "Dark" : "Light"} Mode
