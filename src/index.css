@@ -1,13 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* src/index.css */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #1e0533, #110a1f);
+  color: black;
+  transition: background 0.5s ease, color 0.5s ease;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body.dark {
+  background-color: white;
+  color: white;
+}
+
+.dark a {
+  /* color: #blue; Ensure links are visible in dark mode */
+}
+
+.dark .text-gray-800 {
+  color: white !important;
+}
+
+/* Other overrides for dark mode as needed */
+
+.health {
+  -webkit-text-fill-color: #0000;
+  text-fill-color: #0000;
+  /* background: linear-gradient(93.77deg, #0acefe -6.36%, #2699fb 50.16%); */
+  background: linear-gradient(45deg, #8a2be2, #4b0082);
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-decoration: underline !important;
+}
+
+.ai-demo {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+p {
+  color: #b3b3b3;
 }
